@@ -22,5 +22,7 @@ const changeCapArrow = str => {
     return str1;
 }
 
+module.exports = {changeCap, changeCapArrow};
+
 //console.log(changeCap(str2));
 //console.log(changeCapArrow(str1));
