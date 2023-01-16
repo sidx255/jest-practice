@@ -12,5 +12,5 @@ const countVowelArrow = str => {
     let m = newstr.match(/[aeiou]/gi);
     return m === null ? 0 : m.length;
 }
-console.log(countVowelArrow("SIDDHarth"));
+//console.log(countVowelArrow("SIDDHarth"));
 module.exports = {countVowel, countVowelArrow};
